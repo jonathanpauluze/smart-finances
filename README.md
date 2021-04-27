@@ -1,46 +1,70 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <img src="./src/assets/logo.svg">
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">	
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/jonathanpauluze/smart-finances">
+	
+  <a href="https://www.linkedin.com/in/jonathanpauluze/">
+    <img alt="Made by jonathanpauluze" src="https://img.shields.io/badge/made%20by-jonathanpauluze-%2304D361">
+  </a>
+  
+  <a href="https://github.com/jonathanpauluze/smart-finances/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/jonathanpauluze/smart-finances">
+  </a>
 
-## Available Scripts
+</p>
+<p align="center">
+  <a href="#information_source-Sobre-o-projeto">Sobre</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-tecnologias-e-ferramentas">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#wrench-como-rodar-o-projeto">Como rodar o projeto</a>
+</p>
 
-In the project directory, you can run:
+## :information_source: Sobre o projeto
 
-### `yarn start`
+Aplicação feita durante o bootcamp para o controle de finanças pessoais.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![./.github/screenshot.png](./.github/application.gif)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Na aplicação é possível:
+- cadastrar uma transação (de entrada ou saída)
+- visualizar as transações, valores de entrada e saída, e total
 
-### `yarn test`
+## :rocket: Tecnologias e Ferramentas
+- [React](https://reactjs.org)
+- [TypeScript](https://www.typescriptlang.org)
+- [Axios](https://axios-http.com)
+- [MirageJS](https://miragejs.com) (criação da API fake para testes no front-end)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :wrench: Como rodar o projeto
 
-### `yarn build`
+É necessário ter instalado:
+- [Git](https://git-scm.com)
+- [Node.js](https://nodejs.org/)
+- [Yarn](https://yarnpkg.com/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Faça um clone do projeto
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+$ git clone https://github.com/jonathanpauluze/smart-finances
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# ou com a CLI do GitHub
+$ gh repo clone jonathanpauluze/smart-finances
+```
 
-### `yarn eject`
+### Instale as dependências
+```bash
+# Acesse o diretório do projeto
+$ cd smart-finances
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+# Instale as dependências
+$ yarn
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Inicie a aplicação
+```bash
+$ yarn start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="center">Feito com ♥ por <a href="https://linkedin.com/in/jonathanpauluze" target="_blank">Jonathan Pauluze</a></p>
